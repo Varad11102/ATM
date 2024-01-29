@@ -38,10 +38,6 @@ This repository contains the source code for an ATM/Banking System web applicati
 - Make necessary changes or enhancements to the source code.
 - Test the application locally before deployment.
 
-## Contribution:
-
-Contributions to the project are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request with your changes.
-
 ## License:
 
 This project is licensed under the [MIT License](LICENSE).
