@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM Interface</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #141e30, #243b55);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .atm-container {
+            background: rgba(34, 49, 63, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .header {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 15px;
+        }
+
+        .options a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .options button {
+            width: 100%;
+            height: 60px;
+            font-size: 18px;
+            border: none;
+            background-color: #444;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .options button:hover {
+            background-color: #666;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="atm-container">
+        <div class="logo">
+            <img src="Component.png" alt="Bank Logo">
+            <h1>Sun Bank</h1>
+        </div>
+
+        <div class="header">
+            <h2>Welcome to the ATM</h2>
+        </div>
+
+        <div class="options">
+            <a href="BalanceEnquiry.jsp"><button type="button">BALANCE INQUIRY</button></a>
+            <a href="/JSP/MiniStatements.jsp"><button type="button">MINI STATEMENTS</button></a>
+            <a href="Services.jsp"><button type="button">SERVICES</button></a>
+            <a href="/JSP/BillPayments.jsp"><button type="button">BILL PAYMENTS</button></a>
+            <a href="Deposit.jsp"><button type="button">DEPOSIT</button></a>
+            <a href="CashWithdrawl.jsp"><button type="button">CASH WITHDRAWAL</button></a>
+            <a href="PinChange.jsp"><button type="button">PIN CHANGE</button></a>
+            <a href="FundsTransfer.jsp"><button type="button">FUNDS TRANSFER</button></a>
+        </div>
+
+        <div class="footer">
+            <p>For assistance, press the help button or contact customer service.</p>
+        </div>
+    </div>
+</body>
+</html>
